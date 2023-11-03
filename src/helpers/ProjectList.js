@@ -11,12 +11,12 @@ export const ProjectList = [
   {
     name: "Car Dealership",
     image: CarCar,
-    skills: "React,Node.js,MongoDB",
+    skills: "React, JavaScript, Django, Docker, CI/CD, HTML, CSS, BootStrap",
   },
   {
     name: "Shadow Wrestler",
     image: ShadowWrestler,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React, Javascript, Tailwind, Deployment",
   },
  
 ];

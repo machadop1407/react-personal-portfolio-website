@@ -5,6 +5,9 @@ import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
 function Home() {
+
+  const emailAddress = "jldelott@gmail.com";
+
   return (
     <div className="home">
       <div className="about">
@@ -12,7 +15,9 @@ function Home() {
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
           <LinkedInIcon />
+          <a href={`mailto:${emailAddress}`}>
           <EmailIcon />
+          </a>
           <GithubIcon />
         </div>
       </div>

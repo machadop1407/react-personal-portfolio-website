@@ -6,7 +6,7 @@ export const ProjectList = [
   {
     name: "Dog Sled Tour",
     image: PLH,
-    skills: "React, JavaScript, Fast Api, Docker, CI/CD, HTML, CSS, , BootStrap",
+    skills: "React, JavaScript, Fast Api, Docker, CI/CD, HTML, CSS, BootStrap",
   },
   {
     name: "Car Dealership",

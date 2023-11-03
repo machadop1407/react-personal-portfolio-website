@@ -5,6 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
+  const gitHub = "https://gitlab.com/JacobDelott"
   const { id } = useParams();
   const project = ProjectList[id];
   return (
@@ -14,7 +15,10 @@ function ProjectDisplay() {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <GitHubIcon />
+      <a href={gitHub} target="_blank" rel="noopener noreferrer">
+          <GitHubIcon />
+        </a>
+      
     </div>
   );
 }

@@ -14,11 +14,11 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <a href={`mailto:${emailAddress}`}>
-        <EmailIcon />
-        </a>
         <a href={linkedinURL} target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
+        </a>
+        <a href={`mailto:${emailAddress}`}>
+        <EmailIcon />
         </a>
          <a href={gitHub} target="_blank" rel="noopener noreferrer">
           <GithubIcon />

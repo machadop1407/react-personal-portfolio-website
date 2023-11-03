@@ -7,6 +7,9 @@ import "../styles/Home.css";
 function Home() {
 
   const emailAddress = "jldelott@gmail.com";
+  const linkedinURL = "https://www.linkedin.com/in/jacobdelott/";
+  const gitHub = "https://gitlab.com/JacobDelott"
+
 
   return (
     <div className="home">
@@ -14,11 +17,15 @@ function Home() {
         <h2> Hi, My Name is Jacob</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
+          <a href={linkedinURL} target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
+          </a>
           <a href={`mailto:${emailAddress}`}>
           <EmailIcon />
           </a>
+           <a href={gitHub} target="_blank" rel="noopener noreferrer">
           <GithubIcon />
+        </a>
         </div>
       </div>
       <div className="skills">
